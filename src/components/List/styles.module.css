@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    margin: 50px;
+    border-radius: 5px;
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 10px 10px 20px rgba(142, 142, 142, 0.78);
+}
+
+.list_item {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.list_item:hover {
+    font-size: 1.7rem;
+    transform: translateX(20px);
+}
